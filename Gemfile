@@ -29,6 +29,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Puma as the web server
 gem 'puma'
 
+# Use 12factor to ensure best practices for modern web apps
+# Log to stdout instead of a log file
+# Deliver assets in the same way in production and development
+gem 'rails_12factor'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
